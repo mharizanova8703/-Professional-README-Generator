@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/85656320/138773878-06736f18-4d51-4697-
 
   ## Issues
 
-  If you have any issues contact Mariya at mharizanova@yahoo.com and find her other work at (https://github.com/mharizanova8703/) .
+  If you have any issues contact me at mharizanova@yahoo.com and find my other work at (https://github.com/mharizanova8703/) .
 
   
  
