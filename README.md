@@ -1,4 +1,4 @@
-# Professianal Readme.md Generator
+# Professional Readme.md Generator
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Table of Contents
@@ -34,6 +34,9 @@
   ## License 
     
     This project is licensed under the MIT license.
+    
+    
+   * https://shields.io/category/license
 
   ## Contributions
 
