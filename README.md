@@ -25,7 +25,7 @@
 
   ## Tests
 
-  Answe questions and check the returns
+  Answer questions and check the returns
 
   ## Usage
 
