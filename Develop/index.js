@@ -1,8 +1,8 @@
-let inquirer = require('inquirer');
-let fs = require('fs');
+let inquirer = require('inquirer')
+let fs = require('fs')
+const generateMarkdown = require("./utils/generateMarkdown");
 
-inquirer
-  .prompt([
+const questions = [
     {
       type: 'input',
       name: 'title',
@@ -16,9 +16,10 @@ inquirer
     {
       type: 'input',
       name: 'installation',
-      message: 'What are the installation instructions step by step (split by comma, no space)',
+      message:
+        'What are the installation instructions step by step (split by comma, no space)',
     },
-     {
+    {
       type: 'input',
       name: 'test',
       message: 'Is there a test included?',
@@ -34,17 +35,17 @@ inquirer
       name: 'contribution',
       message: 'Enter contribution guidelines for your project:',
     },
-     {
-            type: "input",
-            name: "questions",
-            message: "What do I do if I have an issue? "
-        },
+    {
+      type: 'input',
+      name: 'questions',
+      message: 'What do I do if I have an issue? ',
+    },
     {
       type: 'input',
       name: 'GitHub',
       message: 'Enter your GitHub Username:',
     },
-     
+
     {
       type: 'input',
       name: 'email',
@@ -52,29 +53,33 @@ inquirer
     },
     {
       type: 'list',
-      name: 'licence',
+      name: 'license',
       message: 'Chose the appropriate license for this project:',
-       choices: [
-                "Apache",
-                "Academic",
-                "GNU",
-                "ISC",
-                "MIT",
-                "Mozilla",
-                "Open"
-            ]
-        },
+      choices: ['Apache', 'Academic', 'GNU', 'ISC', 'MIT', 'Mozilla', 'Open'],
+    },
+  ]
+  
     
-  ])
+function init(){
+inquirer.prompt(questions).then((responses)=>{
+
+  fs.writeFile('Readme.md', generateMarkdown(responses), (err) =>
+    err ? console.log(err) : console.log('Successfully created Readme.md!'),
+  )
+})
+}
+
+init();
 
 // TODO: Create an array of questions for user input
-const questions = []
+//const questions = []
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//
+//function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
 
 // Function call to initialize app
-init()
+//init()
