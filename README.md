@@ -21,7 +21,7 @@
 
   ## Installation
 
-  The generator was written in Node.js. WHEN I am prompted for information about my application repository, THEN a quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. WHEN I enter my project title, THEN this is displayed as the title of the README.WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions, THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests. WHEN I choose a license for my application from a list of options, THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under. WHEN I enter my GitHub username, THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile. WHEN I enter my email address, THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions. WHEN I click on the links in the Table of Contents, THEN I am taken to the corresponding section of the README.
+  The generator was written in Node.js.First you have to install inquirer, using npm. WHEN I am prompted for information about my application repository, THEN a quality, professional README.md is generated with the title of your project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. WHEN I enter my project title, THEN this is displayed as the title of the README.WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions, THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests. WHEN I choose a license for my application from a list of options, THEN a badge for that license is added hear the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under. WHEN I enter my GitHub username, THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile. WHEN I enter my email address, THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions. WHEN I click on the links in the Table of Contents, THEN I am taken to the corresponding section of the README.
 
   ## Tests
 
@@ -35,6 +35,8 @@ https://user-images.githubusercontent.com/85656320/138773878-06736f18-4d51-4697-
   https://watch.screencastify.com/v/vYML3A6J6cB2hLTuZIM0
 
    The application will be invoked with the following command: node index.
+   
+   ## Screenshot
 
   ## License 
     
@@ -54,6 +56,11 @@ https://user-images.githubusercontent.com/85656320/138773878-06736f18-4d51-4697-
   https://www.youtube.com/watch?v=TlB_eWDSMt4&t=3663s
   
   https://www.educative.io/edpresso/how-to-use-the-inquirer-node-package
+     
+ Reference for help : https://github.com/djdyer
+ 
+  Guidance from: Tutor
+     
 
   ## Issues
 
